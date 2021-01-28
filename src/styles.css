@@ -1,0 +1,21 @@
+* {
+  font-family: PlayfairDisplay;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: HammersmithOne;
+}
+
+nav a,
+h2 {
+  text-transform: uppercase;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.logo {
+}
