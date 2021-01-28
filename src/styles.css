@@ -1,10 +1,11 @@
 * {
-  font-family: PlayfairDisplay;
+  font-family: PlayfairDisplay, sans-serif;
   box-sizing: border-box;
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: HammersmithOne;
 }
 
@@ -25,12 +26,13 @@ button {
   box-sizing: border-box;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   padding: 100px 200px;
 }
 
 .ourstorycontainer > img {
   align-self: center;
+  margin-right: 80px;
 }
 
 .ourstorycontainer > div {
@@ -44,6 +46,27 @@ button {
  border-style: solid;
  color: #72bfbe;
  padding: 10px;
- font-family: HammersmithOne;
- 
+ font-family: HammersmithOne, sans-serif;
+}
+
+.meetourteamcontainer {
+  display: flex;
+  box-sizing: border-box;
+  border: solid;
+  background-image: url(/design-assets/bgk-header.png);
+  background-size: 100%;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.meetourteamcontainer > div > button {
+  background-color: transparent;
+  border-color: #72bfbe;
+  border-style: solid;
+  color: #72bfbe;
+  padding: 10px;
+  font-family: HammersmithOne, sans-serif;
+  margin-bottom: 100px;
 }
