@@ -19,3 +19,31 @@ button {
 
 .logo {
 }
+
+.ourstorycontainer {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 200px;
+}
+
+.ourstorycontainer > img {
+  align-self: center;
+}
+
+.ourstorycontainer > div {
+  width: 60%;
+  align-self: center;
+}
+
+.ourstorycontainer > div > button {
+ background-color: white;
+ border-color: #72bfbe;
+ border-style: solid;
+ color: #72bfbe;
+ padding: 10px;
+ font-family: HammersmithOne;
+ 
+}
