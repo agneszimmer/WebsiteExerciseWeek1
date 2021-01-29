@@ -1,5 +1,5 @@
 * {
-  font-family: PlayfairDisplay;
+  font-family: PlayfairDisplay, sans-serif;
   box-sizing: border-box;
 }
 
@@ -186,6 +186,61 @@ table td {
   padding: 20px 20px;
 }
 
+.ourstorycontainer {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px 200px;
+}
+
+.ourstorycontainer > img {
+  align-self: center;
+  margin-right: 80px;
+}
+
+.ourstorycontainer > div {
+  width: 60%;
+  align-self: center;
+}
+
+.ourstorycontainer > div > button {
+ background-color: white;
+ border-color: #72bfbe;
+ border-style: solid;
+ color: #72bfbe;
+ padding: 10px;
+ font-family: HammersmithOne, sans-serif;
+}
+
+.meetourteamcontainer {
+  display: flex;
+  box-sizing: border-box;
+  border: solid;
+  background-image: url(/design-assets/bgk-header.png);
+  background-size: auto;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.teamcontainer {
+  display: flex;
+  padding: 60px;
+  justify-content: center;
+}
+
+.meetourteamcontainer > div > button {
+  background-color: transparent;
+  border-color: #72bfbe;
+  border-style: solid;
+  color: #72bfbe;
+  padding: 10px;
+  font-family: HammersmithOne, sans-serif;
+  margin-bottom: 100px;
+
 table tr:first-child td {
   border-top: 0;
 }
@@ -204,53 +259,6 @@ table tr:last-child td {
 
 .section4 h3 {
   color: #000000;
-}
-
-.section5 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  background-image: url("../design-assets/bgk-header.png");
-  background-size: cover;
-  color: #fff;
-  padding: 80px;
-}
-
-.section5 > div {
-  display: flex;
-  flex-direction: row;
-}
-
-.containerteam {
-  text-align: center;
-}
-
-.section5 h2 {
-  color: white;
-}
-
-.section5 .img {
-  width: 100%;
-  height: auto;
-  margin: 40px 10px 40px 0;
-  border: 1px solid #fff;
-  text-transform: uppercase;
-  padding-bottom: 15px;
-}
-
-.img p {
-  font-size: 12px;
-  line-height: 0.9;
-}
-
-.img img {
-  height: 180px;
-}
-
-.bold {
-  font-weight: bold;
 }
 
 .section6 {
