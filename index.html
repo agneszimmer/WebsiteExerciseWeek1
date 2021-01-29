@@ -17,41 +17,36 @@
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img src="#" width="100px" />
-      </div>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Expertise</a>
-        <a href="#">Teams</a>
-        <a href="#">Works</a>
-        <a href="#">People Say</a>
+      <nav class="nav">
+        <img class="logo" src="design-assets/svg/logo.svg" width="50px" />
+        <ul class="list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Expertise</a></li>
+          <li><a href="#">Teams</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">People Say</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
+      <section class="section1">
+        <!--Agnes-->
+        <h1>We Are Awesome Creative Agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet.
+        </p>
+        <button>Learn More</button>
+      </section>
     </header>
     <main>
-      <section>
-        <!--Agnes-->
-        <h1>We Are Awesome Blabla</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet.
-        </p>
-      </section>
-      <section class=ourstorycontainer>
+       <section class="section2">
         <!--Julia-->
-        <img src= "/design-assets/png/logo-big.png" height= 230px width= 230px>
-        <div>
+        <img class="biglogo" src="design-assets/svg/logo-big.svg" alt="Logo big tajam"/>
+        <div class="ourstory">
           <h2>Our Story</h2>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -68,13 +63,53 @@
         </div>    
       </section>
 
-      <section>
-        <!--Michael-->
+      <section class="section3">
         <!--Background img and Play Icon-->
-
-      <section>
+        <!--Michael-->
+        <img class="icon" src="design-assets/svg/play.svg" />
+        <h3>Watch Our Story</h3>
+      </section>
         <!--Expertise and Icons-->
         <!--Agnes-->
+      <section class="section4">
+        <h2>Expertise</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        <table>
+          <tr>
+            <td>
+              <img src="design-assets/svg/screen.svg" />
+              <h3>Web Design & Development</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </td>
+            <td>
+              <img src="design-assets/svg/pen.svg" />
+              <h3>Branding Identity</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </td>
+            <td>
+              <img src="design-assets/svg/mobile.svg" />
+              <h3>Mobile App</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="design-assets/svg/graph.svg" />
+              <h3>Search Engine Optimization</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </td>
+            <td>
+              <img src="design-assets/svg/gameboy.svg" />
+              <h3>Game Development</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </td>
+            <td>
+              <img src="design-assets/svg/heart.svg" />
+              <h3>Made withe Love</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </td>
+          </tr>   
+        </table>
       </section>
 
       <section class="meetourteamcontainer">
@@ -121,27 +156,82 @@
         </div>
       </section>
 
-      <section>
+      <section class="section6">
         <!--Contact form and client logos-->
         <!--Michael-->
         <form action="#" method="POST">
-          <h2>Give Us A Good News</h2>
-          <input type="text" name="name" placeholder="Name" /><br />
-          <input type="email" name="email" placeholder="Email" /><br />
-          <input type="text" name="subject" placeholder="Subject" /><br />
-          <textarea
-            name="Your Message"
-            rows="10"
-            cols="30"
-            placeholder="Your Message"
-          ></textarea>
-          <br />
-          <button type="button">Submit</button>
+            <h2>Give Us A Good News</h2>
+            <input class="form-input" type="text" name="name" placeholder="Name" /><br />
+            <input class="form-input" type="email" name="email" placeholder="Email" /><br />
+            <input class="form-input" type="text" name="subject" placeholder="Subject" /><br />
+            <textarea
+              class="form-input"
+              name="Your Message"
+              rows="10"
+              cols="30"
+              placeholder="Your Message"
+            ></textarea>
+            <br />
+            <button type="button">Submit</button>
         </form>
-        <h2>Our happy client</h2>
+        <div class="section6con2">
+          <h2>Our happy client</h2>
+          <div>
+            <img src="design-assets/svg/Zara_Logo.svg"  alt="Logo Zara"/>
+            <img src="design-assets/svg/Logo_of_Mango_(new).svg"   alt="Logo Mango" />
+            <img src="design-assets/svg/1280px-Barneys_New_York_Logo.svg"   alt="Logo Barneys New York" />
+            <img src="design-assets/svg/1280px-Gucci_Logo.svg"  alt="Logo Gucci" />
+            <img src="design-assets/svg/Calvin_klein_logo.svg"  alt="Logo Calvin Klein" />
+            <img src="design-assets/svg/1280px-Logo_NIKE.svg"  alt="Logo NIKE" />
+            <img src="design-assets/svg/Converse_logo.svg"  alt="Logo Converse" />
+            <img src="design-assets/svg/Puma_Logo.svg"  alt="Logo Puma" />
+            <img src="design-assets/svg/1280px-Levi_s_logo.svg"  alt="Logo Levi's" />
+            <img src="design-assets/svg/Billabong.svg"  alt="Logo Billa Bong" />
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer></footer>
-  </body>
+    <footer>
+      <section class="footersection">
+          <div class="footercon1">
+            <img src="design-assets/svg/logo.svg" />
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis recusandae ullam ab architecto, in saepe fuga soluta est corporis voluptatum facilis sunt neque, modi, voluptas ut cumque quam quia aliquid!</p>
+          </div>
+          <div class="footercon2">
+            <h3>Our Studio</h3>
+            <table>
+              <tr>
+                <td>
+                  <img src="design-assets/svg/big104.svg" />
+                </td>
+                <td>Ruko cucruk, J1. Radio luar dalem jos<br>
+                  No.12 - 13, Kalideres - akarta Barat<br>
+                  11480 - Indonesia              
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="design-assets/svg/phone351.svg" />
+                </td>
+                <td>(+52) 21-2224 3333</td>
+              </tr>
+            </table>
+          </div>
+          <div class="footercon3">
+            <h3>Stay in touch</h3>
+            <input id="inputfooter" type="text" placeholder="Subscribe our newsletter" />
+              <img id="buttonfooter" src="design-assets/svg/paper122.svg"/>
+            <div class="socialmedia">
+              <img src="design-assets/svg/facebook.svg" />
+              <img src="design-assets/svg/twitter.svg" />
+              <img src="design-assets/svg/dribbble.svg" />
+              <img src="design-assets/svg/instagram.svg" />
+              <img src="design-assets/svg/gplus.svg" />
+              <img src="design-assets/svg/youtube.svg" />
+            </div>
+          </div>
+      </section>
+    </footer>
+   </body>
 </html>

@@ -3,22 +3,187 @@
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3 {
-  font-family: HammersmithOne;
+html,
+body {
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
 }
 
-nav a,
+h1 {
+  font-family: HammersmithOne;
+  font-size: 28px;
+  text-align: center;
+}
+
 h2 {
+  font-family: HammersmithOne;
+  font-size: 19px;
+  color: #75727c;
   text-transform: uppercase;
+}
+
+h3 {
+  font-family: HammersmithOne;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../design-assets/bgk-header.png");
+  background-size: cover;
+  background-position: bottom;
+  padding: 20px 50px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav .logo {
+  margin-right: 120px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 10px;
+}
+
+a:hover {
+  color: #84f0e8;
+}
+
+nav li {
+  list-style: none;
 }
 
 button {
+  font-family: HammersmithOne;
+  font-weight: bold;
   text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid ;
+  color: #84f0e8;
+  padding: 8px 10px;
 }
 
-.logo {
+button:hover {
+  background-color: #84f0e8;
+  color: #fff;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 100px 0 150px;
+  max-width: 680px;
+}
+
+.section1 p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.section1 button {
+  margin: 0 auto;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 680px;
+  padding: 50px 0 50px;
+  margin: 0 auto;
+}
+
+.biglogo {
+  height: 100%;
+  margin-right: 80px;
+  align-self: center;
+}
+
+.ourstory {
+  display: flex;
+  flex-direction: column;
+}
+
+.ourstory p {
+  color: #75727c;
+}
+.section2 button {
+  margin-right: auto;
+}
+
+.section3 {
+  background-image: url("../design-assets/bgk-middle.png");
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0 150px 0;
+  margin: 0 auto;
+}
+
+.icon {
+  width: 80px;
+}
+
+.icon:hover {
+  background-color: #84f0e8;
+  border-radius: 50%;
+}
+
+.section3 img {
+  margin-top: 70px;
+}
+
+.section3 h2 {
+  margin-bottom: 70px;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.section4 table {
+  text-align: center;
+}
+
+table {
+ border-collapse: collapse; 
+ margin-top: 20px;
+}
+
+table td {
+  border: 1px solid #ccc;
+  padding: 20px 20px;
 }
 
 .ourstorycontainer {
@@ -75,4 +240,113 @@ button {
   padding: 10px;
   font-family: HammersmithOne, sans-serif;
   margin-bottom: 100px;
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child {
+  border-right: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+.section4 h3 {
+  color: #000000;
+}
+
+.section6 {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.section6 form {
+  flex-basis: 50%;
+  padding-right: 80px;
+}
+
+.section6con2 {
+  flex-basis: 350px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.section6con2 div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section6con2 div img {
+  width: 50%;
+  height: auto;
+  padding: 0 40px 30px 0;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  font-size: 12px;
+}
+
+footer {
+  background-image: url("../design-assets/bgk-footer.png");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.footersection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 70px 0;
+  color: #fff;
+  max-width: 992px;
+}
+
+.footercon1 {
+  flex: 1;
+}
+
+.footercon2 {
+  flex: 1;
+}
+
+.footercon3 {
+  flex: 1;
+}
+
+footer table tr td {
+  border: 0;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+}
+
+/*Doen't go - Why? */
+#inputfooter {
+  height: 60px;
+}
+
+#buttonfooter {
+  background-color: #fff;
+  opacity: 0.6;
+  padding: 5px 15px;
+  width: 50px;
 }
