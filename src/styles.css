@@ -54,11 +54,17 @@ button {
   box-sizing: border-box;
   border: solid;
   background-image: url(/design-assets/bgk-header.png);
-  background-size: 100%;
+  background-size: auto;
   text-align: center;
   color: white;
   justify-content: center;
   flex-direction: column;
+}
+
+.teamcontainer {
+  display: flex;
+  padding: 60px;
+  justify-content: center;
 }
 
 .meetourteamcontainer > div > button {
