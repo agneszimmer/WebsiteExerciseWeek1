@@ -1,21 +1,90 @@
-* {
-  font-family: PlayfairDisplay;
-  box-sizing: border-box;
+body {
+  text-align: center;
 }
-
 h1,
 h2 {
-  font-family: HammersmithOne;
+  font-family: "HammersmithOne";
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
 }
 
-nav a,
 h2 {
   text-transform: uppercase;
+}
+
+p {
+  font-family: "PlayfairDisplay";
+  font-size: 22px;
+}
+
+.flex-container {
+  color: bluewhite;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  padding-top: 1em;
+}
+
+.tajam {
+  padding: 35px 10px;
+  flex-basis: 60px;
+}
+
+div a {
+  color: #63b8ff;
+  text-decoration: none;
+  font-family: "PlayfairDisplay";
+  font-size: 2em;
+}
+
+nav {
+  text-align: center;
+  margin: 35px;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 1em;
+  text-decoration: none;
+  margin: 20px;
+}
+
+nav a:hover {
+  color: #63b8ff;
 }
 
 button {
   text-transform: uppercase;
+  background-color: transparent;
+  color: #63b8ff;
+  font-size: 9px;
+  padding: 10px 20px;
+  border: 2px solid #63b8ff;
+  margin: 2em;
 }
 
-.logo {
+#awesome {
+  background-image: url("design-assets/bgk-header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+}
+
+awesomecontent {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
