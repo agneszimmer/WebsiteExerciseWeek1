@@ -240,6 +240,7 @@ table td {
   padding: 10px;
   font-family: HammersmithOne, sans-serif;
   margin-bottom: 100px;
+}
 
 table tr:first-child td {
   border-top: 0;
