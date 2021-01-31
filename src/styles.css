@@ -48,7 +48,13 @@ header {
 }
 
 .nav .logo {
+  margin-right: 20px;
+}
+
+.nav p {
   margin-right: 120px;
+  color: #72bfbe;
+  font-size: 25px;
 }
 
 .list {
@@ -309,10 +315,6 @@ table tr:last-child td {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4d82dd8a5c92fcacce8d0e60ab3229d7f6fd2dbe
 .section6 {
   display: flex;
   flex-direction: row;
@@ -363,42 +365,82 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: 0 auto;
   padding: 70px 0;
   color: #fff;
   max-width: 992px;
 }
 
-.footercon1 {
+.footercol1 {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  line-height: 1.5;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row img {
+  margin-right: 10px;
+}
+
+.row p {
+  color: #72bfbe;
+}
+
+.footercol2 {
   flex: 1;
 }
 
-.footercon2 {
-  flex: 1;
-}
-
-.footercon3 {
+.footercol3 {
   flex: 1;
 }
 
 footer table tr td {
   border: 0;
+  line-height: 1;
+  padding-right: 2px;
 }
 
 .socialmedia {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
 }
 
 /*Doen't go - Why? */
 #inputfooter {
   height: 60px;
+  margin-bottom: 20px;
 }
 
 #buttonfooter {
   background-color: #fff;
   opacity: 0.6;
-  padding: 5px 15px;
+  padding: 15px 15px;
   width: 50px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+div .finish {
+  display: flex;
+  max-width: 992px;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+#copyright {
+  margin-left: 100px;
+}
+
+li {
+  list-style: none;
+  color: #fff;
+  padding: 5px 15px;
 }
